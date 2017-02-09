@@ -53,12 +53,6 @@ namespace Treehouse.FitnessFrog.Controllers
             bool? exclude,
             string notes)
         {
-            ViewBag.Date = date;
-            ViewBag.ActivityId = activityId;
-            ViewBag.Duration = duration;
-            ViewBag.Intensity = intensity;
-            ViewBag.Exclude = exclude;
-            ViewBag.Notes = notes;
             return View();
         }
 
